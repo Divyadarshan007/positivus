@@ -1,0 +1,261 @@
+* {
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: 'Space Grotesk' !important;
+}
+
+/* root variables */
+:root {
+    --primary-color: #b9ff66;
+    --seconadry-color: #191a23;
+    --tertiary-color: #f3f3f3;
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-font-size: 20px;
+}
+
+/* utility classes */
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.my-100 {
+    margin: 100px 0;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.bg-primary-color {
+    background-color: #b9ff66 !important;
+}
+
+.bg-secondary-color {
+    background-color: #191a23 !important;
+}
+
+.bg-tertiary-color {
+    background-color: #f3f3f3 !important;
+}
+
+/* header section */
+.secondary-btn button {
+    padding: 20px 35px;
+    border-radius: 14px;
+    font-size: var(--primary-font-size);
+    color: var(--seconadry-color);
+    background-color: transparent;
+}
+
+.nav-link ul li a {
+    color: var(--seconadry-color);
+    font-size: var(--primary-font-size);
+}
+
+/* hero section */
+.hero-section {
+    padding: 60px 0;
+}
+
+.left-content {
+    width: 90%;
+}
+
+.left-content h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.left-content p {
+    margin-bottom: 30px;
+    font-size: var(--primary-font-size);
+    font-weight: 400;
+}
+
+.book-btn button {
+    padding: 20px 35px;
+    background-color: var(--seconadry-color);
+    color: var(--white-color);
+    border-radius: 14px;
+}
+
+mark {
+    background-color: var(--primary-color);
+    border-radius: 7px;
+}
+
+/* service section */
+
+.card-content {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 100%;
+}
+
+.service-card {
+    margin-top: 60px;
+}
+
+/* cta card section */
+.cta-card {
+    padding: 50px;
+    border-radius: 45px;
+}
+
+.cta-info h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.cta-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.case-study {
+    margin-top: 60px;
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+.case-info {
+    padding: 70px 60px;
+}
+
+.case-info p {
+    color: #fff;
+}
+
+.case-info .link-btn a {
+    color: var(--primary-color);
+}
+
+/* working card section */
+.working-card {
+    border-radius: 45px;
+    padding: 41px 60px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 5px solid black;
+}
+
+.w-card-info span:first-child {
+    font-size: 60px;
+
+}
+
+.w-card-info span:last-child {
+    font-size: 30px;
+}
+
+.para {
+    display: none;
+}
+
+/* team section */
+.team-card {
+    padding: 40px 35px;
+    border-radius: 45px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 5px solid black;
+    height: 100%;
+
+}
+
+/* testimonial section */
+
+.coment-card {
+    padding: 50px;
+    height: 100%;
+
+}
+
+.coment-card p {
+    color: var(--tertiary-color);
+}
+
+.for-width {
+    width: 60%;
+}
+
+.testimonial-slider {
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+/* contact section */
+.contact-card {
+    padding: 60px 0 60px 80px;
+    background-color: var(--tertiary-color);
+    border-radius: 45px;
+}
+/* footer section */
+.footer-sec{
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    padding: 50px;
+}
+.btn-box button{
+    padding: 20px 35px;
+    border: none;
+    width: 100%;
+    border-radius: 14px;
+   
+}
+.btn-box{
+    padding: 58px 40px;
+    background-color: #292a32;
+    border-radius: 14px;
+}
+.email-btn button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.subscribe-btn button{
+    
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #000;
+}
+.foo-footer{
+    padding-top:30px ;
+    border-top: 1px solid var(--tertiary-color);
+}
+.foo-footer p{
+    color: var(--tertiary-color);
+}
+.contact-nav{
+    padding: 0 0 30px 0;
+}
+.contact-info{
+    padding: 30px 0;
+}
+.contact-details h3{
+    color: var(--tertiary-color);
+}
+.contact-details p{
+    color: var(--tertiary-color);
+
+}
+nav span a{
+    color: var(--tertiary-color);
+}
+.s-media-icon span{
+    color:var(--tertiary-color) ;
+}

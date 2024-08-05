@@ -1,0 +1,77 @@
+@media (max-width:1200px) {
+    .company-image{
+        width: 80px !important;
+    }
+}
+@media (max-width:992px) {
+    .contact-nav{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contact-nav nav{
+        display: flex;
+        flex-direction:column ;
+        gap: 10px !important;
+        margin-top: 20px;
+    }
+    .btn-box{
+        margin-top: 30px;
+    }
+    .contact-details{
+        text-align: center;
+    }
+ 
+    .coment-card {
+        padding: 25px;
+    }
+    .company-image{
+        width: 80px !important;
+    }
+   
+}
+@media (max-width:768px) {
+    .contact-card{
+        padding: 40px;
+    }
+    .service-heading{
+       justify-content: center;
+    }
+    .company-image{
+        width: 80px !important;
+    }
+}
+@media (max-width:576px) {
+    .working-card{
+        padding: 20px;
+    }
+    .w-card-info span{
+        font-size: 24px !important;
+    }
+    .foo-footer{
+        justify-content: center;
+    }
+    .foo-footer p{
+        text-align: center;
+    }
+    .coment-card p{
+        text-align: center;
+    }
+    .book-btn{
+        justify-content: center !important;
+    }
+    .book-btn button{
+        width: 100%;
+    }
+    .left-content p{
+        text-align: center;
+        font-size: 14px;
+        
+    }
+    .left-content h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .company-image{
+        width: 60px !important;
+    }
+}
