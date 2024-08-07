@@ -42,6 +42,17 @@
 .bg-tertiary-color {
     background-color: #f3f3f3 !important;
 }
+.font-primary-color {
+    color: #b9ff66 !important;
+}
+
+.font-secondary-color {
+    color: #191a23 !important;
+}
+
+.font-tertiary-color {
+   color: #f3f3f3 !important;
+}
 
 /* header section */
 .secondary-btn button {
@@ -50,6 +61,11 @@
     font-size: var(--primary-font-size);
     color: var(--seconadry-color);
     background-color: transparent;
+    transition: 0.3s all linear;
+}
+.secondary-btn button:hover{
+    background-color: var(--seconadry-color);
+    color: var(--tertiary-color);
 }
 
 .nav-link ul li a {
@@ -82,6 +98,11 @@
     background-color: var(--seconadry-color);
     color: var(--white-color);
     border-radius: 14px;
+    transition: 0.3s all linear;
+}
+.book-btn button:hover{
+    background-color: var(--tertiary-color);
+    color: var(--seconadry-color);
 }
 
 mark {
@@ -105,6 +126,11 @@ mark {
 
 .service-card {
     margin-top: 60px;
+}
+.rounded-arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 /* cta card section */
@@ -141,6 +167,7 @@ mark {
 .case-info .link-btn a {
     color: var(--primary-color);
 }
+
 
 /* working card section */
 .working-card {
