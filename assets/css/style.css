@@ -72,6 +72,17 @@
     color: var(--seconadry-color);
     font-size: var(--primary-font-size);
 }
+.responsive-header{
+    display: none;
+}
+.responsive-header ul li a{
+    color: var(--seconadry-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+.responsive-header ul li{
+    padding: 5px 0;
+}
 
 /* hero section */
 .hero-section {

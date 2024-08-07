@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assets/css/media.css">
     <title>Document</title>
 </head>
-<!--  https://www.figma.com/design/L0cYisBPpGmEfvuTBQvXlQ/Positivus-Landing-Page-Design-(Community)?node-id=25-145&t=naZO0Jiu3nkCFLxX-0 -->
+
 
 <body>
 
@@ -40,10 +40,21 @@
                         <button>Request a quote</button>
                     </div>
                 </div>
-                <i class="bi bi-list fs-1 d-xl-none d-flex"></i>
+                <i class="bi bi-list togle-btn fs-1 d-xl-none d-flex"></i>
             </div>
         </div>
     </header>
+    <div class="responsive-header">
+        <div class="container">
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Use Cases</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+    </div>
     <!-- hero-section -->
     <section class="hero-section">
         <div class="container">
@@ -842,12 +853,26 @@
 
                 $icon = $(this).children().children('.icon ').children('span').children('i');
                 $icon.toggleClass(' bi-dash-circle bi-plus-circle');
-                $('.icon span i').not($icon).removeClass('bi-dash-circle')
-                $('.icon span i').not($icon).addClass('bi-plus-circle')
+                $('.icon span i').not($icon).removeClass('bi-dash-circle');
+                $('.icon span i').not($icon).addClass('bi-plus-circle');
 
 
             });
-        })
+
+            $('.togle-btn').on('click', function(){
+                $(this).toggleClass('bi-list bi-x');
+                $('.responsive-header').slideToggle();
+            });
+            $(window).resize(function(){
+                
+                if($(window).width()>768){
+                    $('.responsive-header').slideUp();
+                    $('.togle-btn').addClass(' bi-list');
+                    $('.togle-btn').removeClass(' bi-x ');
+    
+                }
+            })
+        });
     </script>
 </body>
 
